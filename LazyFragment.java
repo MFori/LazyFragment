@@ -1,4 +1,4 @@
-package cz.odkdydokdy.oteviracidoba.viewpager;
+package cz.martinforejt.slider.viewpager;
 
 import android.support.annotation.CallSuper;
 import android.support.v4.app.Fragment;
