@@ -1,6 +1,7 @@
 # LazyFragment
 
-Android class for lazy loading data to viewpager fragment...
+Android class for lazy loading data to viewpager fragment.
+
 Data will load when **onFirstVisible()** is calling.
 
 ##Usage:
