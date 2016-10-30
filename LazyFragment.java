@@ -1,4 +1,4 @@
-package cz.odkdydokdy.oteviracidoba.viewpager;
+package cz.martinforejt.slider.viewpager;
 
 import android.support.annotation.CallSuper;
 import android.support.v4.app.Fragment;
@@ -35,7 +35,7 @@ public abstract class LazyFragment extends Fragment {
         try {
             onVisibilityChange(isVisibleToUser);
         } catch (UnsupportedOperationException e){
-            // child not override 'onVisibilityChange' method
+            // child not override 'onVisibilityChange' method 
         }
     }
 
