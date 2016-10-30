@@ -35,7 +35,7 @@ public abstract class LazyFragment extends Fragment {
         try {
             onVisibilityChange(isVisibleToUser);
         } catch (UnsupportedOperationException e){
-            // child not override 'onVisibilityChange' method
+            // child not override 'onVisibilityChange' method 
         }
     }
 
